@@ -32,7 +32,7 @@ Run Tests:
 
 Созданную стадию нужно добавить в список стадий:
 
-{% snippetcut name=".gitlab-ci.yml" url="https://github.com/werf/werf-guides/tree/master/examples/gitlab-nodejs/090-final/.gitlab-ci.yml" %}
+{% snippetcut name=".gitlab-ci.yml" url="https://github.com/werf/werf-guides/tree/master/examples/gitlab-nodejs/090-unittesting/.gitlab-ci.yml" %}
 {% raw %}
 ```yaml
 stages:

@@ -141,7 +141,7 @@ spec:
   template:
     metadata:
       labels:
-        app: {{ $.Chart.Name }}-py
+        app: {{ .Chart.Name }}-py
     spec:
 <...>
       containers:
