@@ -5,10 +5,6 @@ app:
   s3:
     endpoint:
       _default: "https://s3.selcdn.ru"
-    login:
-      _default: "47956_Clarisse"
-    password:
-      _default: "aly5R\\f:Kp"
     bucket:
       _default: "test-container"
     zone:
