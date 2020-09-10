@@ -27,7 +27,7 @@ Deploy to staging:
   extends: .base_deploy
   environment:
     name: staging
-    url: http://staging.mydomain.io
+    url: http://staging.application-guide.tsupko.tech
   only:
     - merge_requests
   when: manual
@@ -36,7 +36,7 @@ Deploy to production:
   extends: .base_deploy
   environment:
     name: production
-    url: http://mydomain.io
+    url: http://application-guide.tsupko.tech
   only:
     - master
 
